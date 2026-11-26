@@ -36,10 +36,10 @@ export default function Navbar() {
 
         <div style={{ display: "flex", alignItems: "center", gap: "0.75rem" }} className="hidden-mobile">
           <Link href="/login" className="btn-ghost" style={{ padding: "0.5rem 1rem", fontSize: "0.9375rem" }}>
-            Log in
+            Sign in
           </Link>
           <Link href="/signup" className="btn-primary" style={{ padding: "0.5rem 1.25rem", fontSize: "0.9375rem" }}>
-            Start Building Free
+            Get started
           </Link>
         </div>
 
@@ -60,9 +60,9 @@ export default function Navbar() {
             <MobileLink href="/features" onClick={() => setOpen(false)}>Features</MobileLink>
             <MobileLink href="/pricing" onClick={() => setOpen(false)}>Pricing</MobileLink>
             <div style={{ height: "1px", background: "#DCE8E2", margin: "0.5rem 0" }} />
-            <MobileLink href="/login" onClick={() => setOpen(false)}>Log in</MobileLink>
+            <MobileLink href="/login" onClick={() => setOpen(false)}>Sign in</MobileLink>
             <Link href="/signup" className="btn-primary" style={{ marginTop: "0.5rem", justifyContent: "center" }} onClick={() => setOpen(false)}>
-              Start Building Free
+              Get started
             </Link>
           </div>
         </div>
